@@ -81,7 +81,7 @@ footer    {visibility: hidden;}
 # ── Load Data ─────────────────────────────────────────────────────────────────
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data/HR_Analytics_Sample_Dataset.csv", parse_dates=["Joining_Date"])
+    df = pd.read_csv("HR_Analytics_Sample_Dataset.csv", parse_dates=["Joining_Date"])
     df["Joining_Year"]  = df["Joining_Date"].dt.year
     df["Joining_Month"] = df["Joining_Date"].dt.to_period("M").astype(str)
     df["Attrition_Num"] = (df["Attrition"] == "Yes").astype(int)
