@@ -88,4 +88,5 @@ HR-Analytics-Dashboard/
 ## 👨‍💻 Author
 
 **Adil Sujaoddin Maniyar**
+
 <img width="1142" height="612" alt="Screenshot 2026-06-17 021912" src="https://github.com/user-attachments/assets/b4b8e069-acd0-4d5f-8ea8-e17563b45344" />
